@@ -16,6 +16,6 @@ jobs:
         #Definimos los pasos que se ejecutarán en este trabajo.
         steps:
             #Nombre de nuestro paso: primer_paso
-            - name: Print
+            - name: Imprime un mensaje
                 #Definimos la acción que se ejecutará en este paso.
-                run: -ls -la
+              run: ls -la
