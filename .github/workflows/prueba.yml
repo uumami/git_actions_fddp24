@@ -16,6 +16,6 @@ jobs:
         #Definimos los pasos que se ejecutarán en este trabajo.
         steps:
             #Nombre de nuestro paso: primer_paso
-            - name: Imprime un mensaje
+            - name: Print
                 #Definimos la acción que se ejecutará en este paso.
-              run: echo "Hola, mundo!"
+                run: ls -la
