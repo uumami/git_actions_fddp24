@@ -18,4 +18,4 @@ jobs:
             #Nombre de nuestro paso: primer_paso
             - name: Print
                 #Definimos la acción que se ejecutará en este paso.
-                run: ls -la
+                run: -ls -la
